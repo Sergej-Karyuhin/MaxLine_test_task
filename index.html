@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>MaxLine</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.min.css">
   </head>
   <body>
     <div class="wrapper">
@@ -12,58 +12,67 @@
           <img src="assets/logo.png" alt="MaxLine">
         </div>
 
-        <div class="">
-          <div class="">
-            <div class="">
-              <ul>
+        <div class="header__main">
+          <section class="header-1-section">
+            <div class="sub-header-1-container">
+              <ul class="sub-header-1">
                 <li>спорт</li>
                 <li>live</li>
-                <li>tv игры</li>
+                <li>tv игры<span><img src="assets/arrow_lng.png" alt="arrow_lng"></span></li>
                 <li>результаты</li>
                 <li>статистика</li>
               </ul>
-              <div class="">
+              <div class="sub-header-1-container__info">
                 <img src="assets/russia.png" alt="russia">
                 <img src="assets/arrow_lng.png" alt="arrow_lng">
-                <img src="assets/russia.png" alt="russia">
-                <p>13:50 (GMT+3)</p>
+                <img src="assets/clock.png" alt="clock">
+                <span>13:50 (GMT+3)</span>
               </div>
             </div>
-          </div>
-          <div class="">
-            <div class="">
-              <ul>
+          </section>
+          <section class="header-2-section">
+            <div class="sub-header-2-container">
+              <ul class="sub-header-2">
                 <li>Новости</li>
                 <li>О компании</li>
                 <li>Адреса</li>
                 <li>Платежи</li>
-                <li>Чат</li>
-                <li>Бонус</li>
+                <li><span><img src="assets/chat.png" alt="chat"></span>Чат</li>
+                <li><span><img src="assets/present.png" alt="present"></span>Бонус 4%</li>
               </ul>
-              <div class="">
+              <div class="sub-header-2-container__search">
                 <img src="assets/search.png" alt="search">
-                <input>
+                <input placeholder="Поиск">
               </div>
             </div>
-            <div class="">
-              <img src="mobile.png" alt="mobile">
-              <p>Мобильная версия</p>
-              <button>
+            <div class="sub-header-2-container__info">
+              <img src="assets/mobile.png" alt="mobile" width="8px" height="12px" class="sub-header-2-container__info__item">
+              <p class="sub-header-2-container__info__item">Мобильная версия</p>
+              <button class="sub-header-2-container__info__item">
                 <p>android</p>
                 <img src="assets/android.png" alt="android">
               </button>
-              <button>
+              <button class="sub-header-2-container__info__item">
                 <img src="assets/appstore.png" alt="appstore">
                 <p>App Store</p>
               </button>
             </div>
+          </section>
+        </div>
+
+        <div class="header__authorization">
+          <div class="">
+            <input placeholder="Логин">
+            <button>Войти</button>
+          </div>
+          <div class="">
+            <input placeholder="Пароль">
+            <a href="#">Забыли пароль?</a>
+            <button>Регистрация</button>
           </div>
         </div>
-
-        <div class="">
-
-        </div>
       </header>
+
     </div>
   </body>
 </html>
